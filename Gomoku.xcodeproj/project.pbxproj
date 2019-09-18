@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D32A904232EE15C00379F9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32A903232EE15C00379F9D /* LoginViewController.swift */; };
+		1D32A906232EE16B00379F9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32A905232EE16B00379F9D /* GameViewController.swift */; };
 		1D5778C6232C9EE200CBE733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5778C5232C9EE200CBE733 /* AppDelegate.swift */; };
-		1D5778C8232C9EE200CBE733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5778C7232C9EE200CBE733 /* ViewController.swift */; };
 		1D5778CB232C9EE200CBE733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5778C9232C9EE200CBE733 /* Main.storyboard */; };
 		1D5778CD232C9EE600CBE733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5778CC232C9EE600CBE733 /* Assets.xcassets */; };
 		1D5778D0232C9EE600CBE733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5778CE232C9EE600CBE733 /* LaunchScreen.storyboard */; };
 		1D5778DB232C9EE600CBE733 /* GomokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5778DA232C9EE600CBE733 /* GomokuTests.swift */; };
 		1D5778E6232C9EE600CBE733 /* GomokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5778E5232C9EE600CBE733 /* GomokuUITests.swift */; };
+		3F19BC8CC101FD911E65325D /* Pods_GomokuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEB81D2B8787F2264C64029 /* Pods_GomokuTests.framework */; };
+		5FE3ED4E5ACC2A3EA6204C20 /* Pods_Gomoku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD151DC70F5F1F70D481559 /* Pods_Gomoku.framework */; };
+		F65C9DC075EBD57CD31A4205 /* Pods_GomokuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF137E399C994C6654C963EC /* Pods_GomokuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0373336A4C8C97A22FA448CC /* Pods-GomokuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuTests.release.xcconfig"; path = "Target Support Files/Pods-GomokuTests/Pods-GomokuTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D32A903232EE15C00379F9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1D32A905232EE16B00379F9D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1D5778C2232C9EE200CBE733 /* Gomoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gomoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5778C5232C9EE200CBE733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D5778C7232C9EE200CBE733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D5778CA232C9EE200CBE733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D5778CC232C9EE600CBE733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D5778CF232C9EE600CBE733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		1D5778E1232C9EE600CBE733 /* GomokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5778E5232C9EE600CBE733 /* GomokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuUITests.swift; sourceTree = "<group>"; };
 		1D5778E7232C9EE600CBE733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E283BBFD1CEC5CF0270C98F /* Pods-GomokuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuTests.debug.xcconfig"; path = "Target Support Files/Pods-GomokuTests/Pods-GomokuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		338120439F2D3591C07B33C9 /* Pods-GomokuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuUITests.release.xcconfig"; path = "Target Support Files/Pods-GomokuUITests/Pods-GomokuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F13AF8E766AD94359F94F21 /* Pods-GomokuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuUITests.debug.xcconfig"; path = "Target Support Files/Pods-GomokuUITests/Pods-GomokuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DFB1B4A78F32476B6F0BB1B /* Pods-Gomoku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gomoku.release.xcconfig"; path = "Target Support Files/Pods-Gomoku/Pods-Gomoku.release.xcconfig"; sourceTree = "<group>"; };
+		5CD151DC70F5F1F70D481559 /* Pods_Gomoku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gomoku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEB81D2B8787F2264C64029 /* Pods_GomokuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GomokuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37C9722FB820C7CED758293 /* Pods-Gomoku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gomoku.debug.xcconfig"; path = "Target Support Files/Pods-Gomoku/Pods-Gomoku.debug.xcconfig"; sourceTree = "<group>"; };
+		FF137E399C994C6654C963EC /* Pods_GomokuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GomokuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE3ED4E5ACC2A3EA6204C20 /* Pods_Gomoku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F19BC8CC101FD911E65325D /* Pods_GomokuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65C9DC075EBD57CD31A4205 /* Pods_GomokuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D1D2D89A6F0AEB7ADB38C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD151DC70F5F1F70D481559 /* Pods_Gomoku.framework */,
+				CEEB81D2B8787F2264C64029 /* Pods_GomokuTests.framework */,
+				FF137E399C994C6654C963EC /* Pods_GomokuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D5778B9232C9EE200CBE733 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				1D5778D9232C9EE600CBE733 /* GomokuTests */,
 				1D5778E4232C9EE600CBE733 /* GomokuUITests */,
 				1D5778C3232C9EE200CBE733 /* Products */,
+				FED32030E0C28A3BA79D31ED /* Pods */,
+				05D1D2D89A6F0AEB7ADB38C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				1D5778C5232C9EE200CBE733 /* AppDelegate.swift */,
-				1D5778C7232C9EE200CBE733 /* ViewController.swift */,
 				1D5778C9232C9EE200CBE733 /* Main.storyboard */,
 				1D5778CC232C9EE600CBE733 /* Assets.xcassets */,
 				1D5778CE232C9EE600CBE733 /* LaunchScreen.storyboard */,
 				1D5778D1232C9EE600CBE733 /* Info.plist */,
+				1D32A903232EE15C00379F9D /* LoginViewController.swift */,
+				1D32A905232EE16B00379F9D /* GameViewController.swift */,
 			);
 			path = Gomoku;
 			sourceTree = "<group>";
@@ -125,6 +155,19 @@
 			path = GomokuUITests;
 			sourceTree = "<group>";
 		};
+		FED32030E0C28A3BA79D31ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E37C9722FB820C7CED758293 /* Pods-Gomoku.debug.xcconfig */,
+				4DFB1B4A78F32476B6F0BB1B /* Pods-Gomoku.release.xcconfig */,
+				1E283BBFD1CEC5CF0270C98F /* Pods-GomokuTests.debug.xcconfig */,
+				0373336A4C8C97A22FA448CC /* Pods-GomokuTests.release.xcconfig */,
+				3F13AF8E766AD94359F94F21 /* Pods-GomokuUITests.debug.xcconfig */,
+				338120439F2D3591C07B33C9 /* Pods-GomokuUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D5778EA232C9EE600CBE733 /* Build configuration list for PBXNativeTarget "Gomoku" */;
 			buildPhases = (
+				E2E8E83AABEAD0515C868BBA /* [CP] Check Pods Manifest.lock */,
 				1D5778BE232C9EE200CBE733 /* Sources */,
 				1D5778BF232C9EE200CBE733 /* Frameworks */,
 				1D5778C0232C9EE200CBE733 /* Resources */,
+				80BA06CB55821AC2DB6A9700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D5778ED232C9EE600CBE733 /* Build configuration list for PBXNativeTarget "GomokuTests" */;
 			buildPhases = (
+				D765A54CD86890BAF4C1B568 /* [CP] Check Pods Manifest.lock */,
 				1D5778D2232C9EE600CBE733 /* Sources */,
 				1D5778D3232C9EE600CBE733 /* Frameworks */,
 				1D5778D4232C9EE600CBE733 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D5778F0232C9EE600CBE733 /* Build configuration list for PBXNativeTarget "GomokuUITests" */;
 			buildPhases = (
+				56E6B124B60FF59E2964BB1E /* [CP] Check Pods Manifest.lock */,
 				1D5778DD232C9EE600CBE733 /* Sources */,
 				1D5778DE232C9EE600CBE733 /* Frameworks */,
 				1D5778DF232C9EE600CBE733 /* Resources */,
@@ -251,12 +298,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56E6B124B60FF59E2964BB1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GomokuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BA06CB55821AC2DB6A9700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gomoku/Pods-Gomoku-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gomoku/Pods-Gomoku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D765A54CD86890BAF4C1B568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GomokuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E8E83AABEAD0515C868BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gomoku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D5778BE232C9EE200CBE733 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5778C8232C9EE200CBE733 /* ViewController.swift in Sources */,
+				1D32A904232EE15C00379F9D /* LoginViewController.swift in Sources */,
+				1D32A906232EE16B00379F9D /* GameViewController.swift in Sources */,
 				1D5778C6232C9EE200CBE733 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +569,7 @@
 		};
 		1D5778EB232C9EE600CBE733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37C9722FB820C7CED758293 /* Pods-Gomoku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +587,7 @@
 		};
 		1D5778EC232C9EE600CBE733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFB1B4A78F32476B6F0BB1B /* Pods-Gomoku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +605,7 @@
 		};
 		1D5778EE232C9EE600CBE733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E283BBFD1CEC5CF0270C98F /* Pods-GomokuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +626,7 @@
 		};
 		1D5778EF232C9EE600CBE733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0373336A4C8C97A22FA448CC /* Pods-GomokuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +647,7 @@
 		};
 		1D5778F1232C9EE600CBE733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F13AF8E766AD94359F94F21 /* Pods-GomokuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +667,7 @@
 		};
 		1D5778F2232C9EE600CBE733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338120439F2D3591C07B33C9 /* Pods-GomokuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
