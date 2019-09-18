@@ -260,6 +260,7 @@ class GameViewController: UIViewController, UITextFieldDelegate {
         let msg = name + ": " + chatTextField.text!
         let encodingMsg = msg.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         request(BASEURL + "/addChat" + "?content=" + encodingMsg!)
+        chatTextField.text = ""
     }
     
     // update info from server
